@@ -1,0 +1,125 @@
+.login_part_form {
+    padding: 80px 70px;
+    height: 600px;
+}
+
+.login_part {
+    padding-top: 140px;
+}
+
+.login_part_form_iner h3 {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border: 0px solid transparent;
+    border-bottom: 1px solid #dddddd;
+    border-radius: 0;
+    border-color: #ebd9ca;
+    display: block;
+    width: 100%;
+    padding: 5px 20px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    height: 38px;
+    color: #495057;
+    outline: none;
+    margin-top: 8px;
+}
+
+.creat_account {
+    margin-top: 11px;
+}
+
+.creat_account label {
+    font-size: 1.6rem;
+    margin-left: 5px;
+    color: #9d9d9d;
+}
+
+.align-items-center img {
+    width: 100%;
+}
+
+.message::placeholder {
+    color: red;
+}
+
+.form-group .btn_3 {
+    width: 100%;
+    margin: 30px 0 17px;
+    font-size: 1.6rem;
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.p_star {
+    color: red;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-message {
+    position: absolute;
+    font-size: 1.6rem;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: red;
+    display: none;
+}
+
+.form-message.active {
+    display: block;
+}
+
+.form-group a {
+    font-size: 1.6rem;
+    color: var(--gray);
+}
+
+.form-group a:hover {
+    text-decoration: none;
+}
+
+.form-group .lost_pass {
+    display: block;
+    float: left;
+}
+
+.form-group .lost_pass {
+    display: block;
+    float: right;
+}
+
+.form-show {
+    position: relative;
+}
+
+.show-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.show-password {
+    display: none;
+    color: #000;
+    font-size: 1.4rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.show-password.no-active {
+    display: block;
+}

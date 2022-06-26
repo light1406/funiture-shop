@@ -1,0 +1,237 @@
+#detail-product {
+    padding: 140px 0;
+}
+
+.detail-product-wrapper {
+    justify-content: space-between;
+}
+
+.detail-product-img {
+}
+
+.detail-slider {
+    position: relative;
+}
+
+.detail-slider-wrapper {
+    padding-right: 105px;
+    height: 390px;
+    overflow: hidden;
+}
+
+.detail-slider-pictures {
+    transition: all 0.5s ease-out;
+}
+
+.detail-slider-img {
+    width: 100%;
+}
+
+.detail-slider-list {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* display: none; */
+    width: 100px;
+    height: 390px;
+    overflow: hidden;
+}
+
+.detail-slider-item:not(:last-child) {
+    height: 150px;
+    width: 100%;
+}
+
+.detail-slider-item__link {
+    display: block;
+}
+
+.detail-slider-item__img {
+    width: 100%;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+#detail-img-1:checked ~ .detail-slider-pictures {
+    transform: translateY(0);
+}
+
+#detail-img-2:checked ~ .detail-slider-pictures {
+    transform: translateY(-400px);
+}
+
+#detail-img-3:checked ~ .detail-slider-pictures {
+    transform: translateY(-800px);
+}
+
+/* right */
+
+.detail-product-text {
+}
+
+.detail-product-text__headding {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #2a2a2a;
+    margin-bottom: 10px;
+}
+
+.detail-product-text__salePrice {
+    font-size: 2.4rem;
+    font-weight: bold;
+
+}
+
+.detail-product-text__price {
+    margin: 30px;
+    text-decoration: line-through;
+}
+
+.detail-product-text__list {
+    padding-left: 0;
+}
+
+.detail-product-text__item {
+    font-size: 1.4rem;
+    display: flex;
+}
+
+.detail-product-text__item p {
+    padding: 0;
+}
+
+.detail-product-text__item a {
+    text-decoration: none;
+}
+
+.detail-product-text__item span {
+    font-size: 1.4rem;
+    color: #555;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+
+.detail-product-text__item:first-child span {
+    color: #f7d08a;
+}
+
+.detail-product-text > p {
+    padding-top: 20px;
+    border-top: 1px dotted #d5d5d5;
+    margin: 20px 0;
+    line-height: 2;
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 300;
+}
+
+.detail-product-text__cart {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px dotted #d5d5d5;
+    border-bottom: 1px dotted #d5d5d5;
+    padding: 20px 0;
+
+
+}
+
+.detail-product-text__cart-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    padding: 12px 15px;
+}
+
+.detail-product-text__cart-count span i {
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.detail-product-text__cart-count input {
+    outline: none;
+    border: none;
+    width: 70px;
+    text-align: center;
+}
+
+.detail-product-text__cart-btn {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: var(--main-color);
+    border-radius: 30px;
+    font-size: 1.5rem;
+    box-shadow: -1.717px 8.835px 29.76px 2.24px rgb(255 51 104 / 18%);
+    border: 1px solid #f7d08a;
+    padding: 13px 36px;
+    display: block;
+    font-weight: 500;
+}
+
+.detail-product-text__cart-btn.stop {
+    opacity: 0.5;
+}
+
+/* tab */
+
+.detail-product-description {
+    margin-top: 60px;
+}
+
+.detail-product-tabs {
+    display: flex;
+}
+
+.detail-product-tab.active {
+    background: #e5890a;
+    color: #fff;
+    border-color: #e5890a;
+    box-shadow: -1.717px 8.835px 29.76px 2.24px rgb(255 51 104 / 18%);
+}
+
+.detail-product-tab {
+    font-size: 1.3rem;
+    font-weight: normal;
+    border-radius: 50px;
+    padding: 10px 30px;
+    border: 1px solid #eeeeee;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.detail-product-tabs-content {
+    padding-top: 30px;
+
+}
+
+.detail-tab-pane.active {
+    display: block;
+}
+
+.detail-tab-pane {
+    display: none;
+}
+
+.detail-tab-pane p {
+    line-height: 2;
+    font-size: 15px;
+    margin-bottom: 0px;
+    color: #000;
+    font-weight: 300;
+}
+
+.detail-tab-row {
+    padding: 15px 0;
+}
+
+.detail-tab-row h5 {
+    font-size: 1.5rem;
+    color: #797979;
+    font-weight: normal;
+}
+
+.detail-tab-row:not(:last-child) {
+    border-bottom: 1px solid #eee;
+}
+

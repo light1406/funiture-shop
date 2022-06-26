@@ -1,0 +1,44 @@
+#seller {
+    padding: 140px 0 0;
+}
+
+.seller-wrapper {
+    overflow: hidden;
+}
+
+.seller-list {
+    display: flex;
+    flex-wrap: nowrap;
+    transition: all 0.5s ease-out;
+}
+
+.seller-heading {
+    position: relative;
+}
+
+.seller-heading h2 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.seller-control {
+    display: flex;
+    position: absolute;
+    right: 35px;
+    top: 10px;
+}
+
+.seller-control__next-btn span,
+.seller-control__previous-btn span {
+    margin: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+}
+
+.seller-control__previous-btn span::before {
+    content: "|";
+    position: absolute;
+    left: -10px;
+}

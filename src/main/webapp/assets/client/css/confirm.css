@@ -1,0 +1,108 @@
+.container-confirm {
+    margin: 100px auto;
+}
+
+p.confirm-heading {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+
+.bill-wrap {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+}
+
+.bill-1 {
+    background-color: var(--bg-1-color);
+    width: 500px;
+    height: 497px;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.bill-heading {
+    font-size: 1.6rem;
+    margin: 40px 0 10px 40px;
+}
+
+.bill-info {
+    display: flex;
+    margin: 15px 0 0 40px;
+}
+
+.bill-info_title {
+    font-size: 1.6rem;
+    flex: 1;
+}
+
+.bill-info__value {
+    font-size: 1.6rem;
+    flex: 1;
+    max-height: 200px;
+    overflow: hidden;
+
+}
+
+.bill-2 {
+    background-color: var(--bg-1-color);
+    width: 50%;
+    height: 285px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.confirm-detail-wrap {
+    width: 1000px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.confirm-detail {
+    margin: 0 10px 0;
+    background-color: var(--bg-1-color);
+    padding: 40px;
+}
+
+.confirm-detail__heading {
+    font-size: 1.6rem;
+}
+
+#myTable {
+    border-collapse: collapse;
+    width: 100%;
+    padding-right: 40px;
+}
+
+#myTable td, #myTable th {
+    border: 1px solid #ddd;
+    padding: 8px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 600px;
+}
+
+#myTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+#myTable td input {
+    width: 35px;
+    text-align: center;
+}
+
+#myTable td i {
+    color: #f44336;
+}
+
+#myTable .text-center {
+    text-align: center;
+}
+
+#myTable tr:last-child{
+    font-weight: bold;
+}

@@ -1,0 +1,99 @@
+:root {
+    --bg-1-color: #ebd9ca;
+    --text-color: #888888;
+    --main-color: #e5890a;
+    --white-color: #ffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    cursor: pointer !important;
+}
+
+input,
+textarea {
+    color: rgb(49, 49, 49);
+    font-family: "Poppins", sans-serif;
+}
+
+::selection {
+    background-color: var(--main-color) ;
+    color: var(--white-color);
+}
+
+.fa-times {
+    color: rgb(233, 67, 67);
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+#app,
+#header,
+#slider,
+#app-content,
+#footer {
+    position: relative;
+}
+
+.text {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.text-success {
+    color: #28a745 !important;
+}
+
+.text-info {
+    color: #17a2b8 !important;
+}
+
+.text-warning {
+    color: #ffc107 !important;
+}
+
+.text-danger {
+    color: #dc3545 !important;
+}
+
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    font-size: 1.4rem;
+}
+
+.alert-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.alert-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #23923d;
+}

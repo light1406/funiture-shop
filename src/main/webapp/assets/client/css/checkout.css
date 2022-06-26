@@ -1,0 +1,149 @@
+.container-checkout {
+    width: 1000px;
+    display: flex;
+    margin: 100px auto;
+}
+
+.checkout-form {
+    width: 50%;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+.input-wrap {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+}
+
+.form-checkout__heading {
+    font-size: 1.6rem;
+}
+
+.form-checkout__input input {
+    margin: 20px 20px 20px 0;
+    height: 40px;
+    width: 90%;
+    padding-left: 12px;
+    line-height: 50px;
+    outline: rgb(73, 80, 87) none 0px;
+    border-radius: 5px;
+    transition: border-color 0.15s ease-in-out;
+    border: 1px solid #eeeeee;
+}
+
+.form-checkout__input textarea {
+    padding: 12px;
+    width: 90%;
+    border-radius: 5px;
+    outline: none;
+    outline: rgb(73, 80, 87) none 0px;
+    border-radius: 5px;
+    transition: border-color 0.15s ease-in-out;
+    border: 1px solid #eeeeee;
+}
+
+.form-checkout__input input:focus,
+.form-checkout__input textarea:focus {
+    border-color: var(--main-color);
+}
+
+.checkout-receipt {
+    width: 60%;
+    background-color: rgb(235, 217, 202, 0.5);
+    height: 100%;
+}
+
+.checkout-receipt__info-payment--header {
+    text-align: left;
+    font-size: 1.6rem;
+}
+
+.checkout-receipt table {
+    width: 100%;
+    padding: 32px;
+}
+
+.checkout-receipt table tr th {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: left;
+    width: 70%;
+}
+
+.checkout-receipt table tr td {
+    font-size: 1.6rem;
+    padding: 10px 0;
+}
+
+.checkout-receipt h3.form-checkout__heading {
+    margin: 30px 32px 0 32px;
+}
+
+.checkout-receipt__info {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin: 0 45px;
+}
+
+.quantity {
+    transform: translateX(24px);
+}
+
+.checkout-receipt__info-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+.checkout-receipt__info-title,
+.checkout-receipt__info-quantity-special,
+.checkout-receipt__info-price {
+    font-size: 1.6rem;
+    line-height: 45px;
+}
+
+.checkout-receipt__info-payment {
+    display: flex;
+    flex-direction: column;
+    margin: 0 32px;
+}
+
+.checkout-receipt__info-method-payment {
+    align-items: center;
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+
+.checkout-receipt__info-method-payment label {
+    cursor: pointer;
+}
+
+.checkout-receipt__info-method-payment input {
+    vertical-align: middle;
+}
+
+.checkout-receipt__btn {
+    margin: 20px 0;
+}
+
+.btn-checkout {
+    padding: 15px 100px;
+    outline: none;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 35px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    font-weight: 500px;
+    display: flex;
+    margin: auto;
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+.btn-checkout:hover {
+    opacity: 0.8;
+}
